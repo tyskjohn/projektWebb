@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductCollageComponent } from './product-collage/product-collage.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductCollageComponent
+    ProductCollageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
