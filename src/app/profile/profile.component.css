@@ -1,0 +1,32 @@
+#profile-section {
+  background: #f0f0f0;
+}
+
+#profile-section .profile-header {
+  background: url(../../assets/images/dark-background.jpg);
+  background-size: cover;
+  height: 150px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+#profile-section .profile-header .user-img {
+  position: absolute;
+  background: #aaaaaa;
+  color: #f0f0f0;
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  bottom: -50%;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#profile-section .profile-header .user-img h1 {
+  -webkit-transform: translate(0, 15%);
+          transform: translate(0, 15%);
+  font-size: 4.5rem;
+}
+/*# sourceMappingURL=profile.component.css.map */
