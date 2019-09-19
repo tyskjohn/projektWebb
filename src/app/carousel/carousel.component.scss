@@ -1,0 +1,17 @@
+$main-size: 30px;
+$my-color: brown;
+
+.font-size {
+    font-size: $main-size;
+    margin: 30px;
+    padding-top: 10px;
+}
+
+
+.carousel-inner {
+    h5 {
+        span{
+            color: $my-color;
+        }
+    }
+}
