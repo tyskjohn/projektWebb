@@ -7,15 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { ProductCollageComponent } from './product-collage/product-collage.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ShowcaseComponent,
-    HomeComponent,
     FooterComponent,
     ProductCollageComponent,
+    NewsletterComponent,
   ],
   imports: [
     BrowserModule,
