@@ -90,6 +90,7 @@
   color: #263238;
   -webkit-transition: ease-in-out .1s;
   transition: ease-in-out .1s;
+  cursor: pointer;
 }
 
 #profile-section .profile-tabs .overview-section .cog:hover {

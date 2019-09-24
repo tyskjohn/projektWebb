@@ -90,6 +90,7 @@
                 font-size: 20px;
                 color: $dark-gray;
                 transition: ease-in-out .1s;
+                cursor: pointer;
             }
             .cog:hover {
                 transform: scale(1.1);
