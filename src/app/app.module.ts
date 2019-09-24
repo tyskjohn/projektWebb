@@ -8,6 +8,7 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { ProductCollageComponent } from './product-collage/product-collage.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     FooterComponent,
     ProductCollageComponent,
     NewsletterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
