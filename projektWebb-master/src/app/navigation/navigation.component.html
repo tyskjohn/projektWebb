@@ -1,0 +1,125 @@
+<div class="workside" style="height: 1000px;">
+
+
+
+  <nav id="header" class="fixed-top navbar-fixed navbar navbar-expand-lg mx-5">
+
+
+
+    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-grip-lines"></i></span>
+    </button>
+    <img class="logo-image ml-5" src="../../assets/images/logo.png" hrf="/" alt="">
+
+
+    <div class="navvbar collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ml-auto">
+        <li class="nav-item active">
+          <a class="hover-color nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+
+        </li>
+        <li class="nav-item">
+          <a class="hover-color nav-link" href="#">PROFILE</a>
+        </li>
+        <li class="nav-item">
+          <a class="hover-color nav-link" href="#">MORE</a>
+        </li>
+        <li class="nav-item">
+          <a class="hover-color nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="hover-color nav-link" href="#">OTHER</a>
+        </li>
+        <li class="nav-item">
+          <a class="hover-color nav-link" href="#">MAP</a>
+        </li>
+      </ul>
+      <div class="navbar-nav my-1 ml-auto my-lg-0">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 " type="search" placeholder="search" aria-label="Search">
+          <button class="search btn btn-outline-light  my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <ul class="navbar-nav my-2 my-lg-0">
+        <li class="nav-item mr-sm-2 nav-item">
+          <a class="hover-color nav-link" href="#"><i class="far fa-flag"></i></a>
+        </li>
+        <li class="nav-item mr-sm-2 nav-item">
+          <a class="hover-color nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item mr-sm-2 nav-item">
+          <a class="hover-color nav-link my-2 my-sm-0" href="#">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<style>
+
+.logo-image {
+  width: 90px;
+}
+  
+  .search {
+    position: flex;
+    margin-left: -25%;
+  }
+
+li {
+  width:80px;
+}
+
+  #header {
+     animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-top: 0px;
+    }
+
+    25% {
+      margin-top: 100px !important;
+    }
+
+    /* ignored */
+    to {
+      margin-top: 50px
+    }
+  }
+
+  .navbar {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+   @keyframes slidein {
+  from {
+    margin-top:-100px;
+  
+  }
+  
+  to {
+    margin-top:0%;
+    
+  }
+} 
+a.hover-color:hover,
+ a.hover-color:active {
+   font-size: 105%;
+   color:rgb(135, 135, 233);
+   transition: 0.65s;
+   
+  }
+ 
+
+
+</style>
