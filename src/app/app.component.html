@@ -1,1 +1,4 @@
-<router-outlet></router-outlet>
+<app-navigation></app-navigation>
+<main [@fadeAnimation]="getRouterOutletState(o)">
+    <router-outlet #o="outlet"></router-outlet>
+</main>
