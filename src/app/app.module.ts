@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { ProductsComponent } from './products/products.component';
+import { PopularProductsComponent } from './popular-products/popular-products.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NavigationComponent } from './navigation/navigation.component';
     ProductCollageComponent,
     NewsletterComponent,
     CarouselComponent,
-    NavigationComponent
+    NavigationComponent,
+    ProductsComponent,
+    PopularProductsComponent
   ],
   imports: [
     BrowserModule,

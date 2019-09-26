@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { NewsletterComponent } from './newsletter/newsletter.component';
+import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
 
   { path: '', component: HomeComponent },
-
-  { path: 'footer', component: FooterComponent },
-  { path: 'newsletter', component: NewsletterComponent },
+  { path: 'products', component: ProductsComponent }
 
 ];
 
