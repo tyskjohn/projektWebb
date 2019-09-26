@@ -3,6 +3,7 @@
 #profile-section {
     background: $white;
     box-sizing: border-box;
+    padding-bottom: 30px;
 
     .profile-header {
         background: url(../../assets/images/dark-background.jpg);
@@ -31,6 +32,7 @@
     }
 
     .user-title {
+        padding-top: 30px;
         h5, p {
             font-weight: 400;
             letter-spacing: 3px;
