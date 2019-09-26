@@ -23,9 +23,43 @@ li {
   margin-left: 20px;
 }
 
-a.hover-color:hover, a.hover-color:active {
+a.hover-color:hover,
+a.hover-color:active {
   color: #7a7b7c;
   -webkit-transition: 0.15s;
   transition: 0.15s;
+}
+
+form input {
+  background-color: #9696967c;
+  color: white;
+}
+
+form button i {
+  border: 0px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.fa-search {
+  line-height: 0px;
 }
 /*# sourceMappingURL=navigation.component.css.map */
