@@ -9,6 +9,7 @@ import { ProductCollageComponent } from './product-collage/product-collage.compo
 import { FooterComponent } from './footer/footer.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     FooterComponent,
     ProductCollageComponent,
     NewsletterComponent,
-    CarouselComponent
+    CarouselComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
