@@ -3,15 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 
+import { ModuleWithProviders } from '@angular/core';
 const routes: Routes = [
-
-  { path: '', component: HomeComponent },
+  { path: '', pathMatch: 'full', redirectTo: 'home',  },
+  { path: 'home', component: HomeComponent },
   { path: 'products', component: ProductsComponent }
 
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+export const AppRoutingModule: ModuleWithProviders = RouterModule.forRoot(routes);
