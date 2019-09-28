@@ -9,10 +9,17 @@ export class ProductInfoComponent implements OnInit {
 
   constructor() { }
 
+  public pictures = {};
+
   ngOnInit() {
-    
   }
 
+selectedPic: string = '';
+
+selectChangeHandler (event: any) {
+  this.selectedPic = event.target.value;
+
+}
 
 
 
