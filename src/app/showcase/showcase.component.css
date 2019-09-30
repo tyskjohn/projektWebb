@@ -1,9 +1,11 @@
 .showcase {
   background-image: url(../../assets/images/showcase_background.jpg);
   height: 650px;
+  position: relative;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   height: 100px;
   width: 100px;
   background-size: 100%, 100%;
@@ -11,13 +13,13 @@
 }
 
 .carousel-control-next-icon:after {
-  content: '>';
+  content: ">";
   font-size: 55px;
   color: #f0f0f0;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
   color: #f0f0f0;
 }

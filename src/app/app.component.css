@@ -1,7 +1,21 @@
+:host {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
 :host app-navigation {
   position: absolute;
   width: 100%;
   z-index: 1;
+}
+
+:host main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
 }
 
 :host /deep/ router-outlet ~ * {
