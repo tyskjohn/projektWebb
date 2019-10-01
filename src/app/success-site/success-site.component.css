@@ -1,0 +1,29 @@
+.order-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.order-info2 {
+    width: 100%;
+}
+
+.product-info {
+    border-top: 1px solid rgb(202, 202, 202);
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+}
+
+.columns-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.columns-info img {
+    width: 100px;
+}
+
