@@ -34,4 +34,27 @@ a.hover-color:active {
   -webkit-transition: 0.15s;
   transition: 0.15s;
 }
+
+button .navbar-toggler {
+  z-index: 50;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f0f0f0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240,240,240)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 575.98px) {
+  .navbgcollapse {
+    background-color: #181a1bc5;
+    margin-top: 20px;
+    padding-top: 0%;
+    height: auto;
+    width: auto;
+    z-index: 500;
+  }
+}
 /*# sourceMappingURL=navigation.component.css.map */

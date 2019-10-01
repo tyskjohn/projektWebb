@@ -1,17 +1,32 @@
-$main-size: 30px;
-$my-color: brown;
+@import "../../colors";
 
-.font-size {
-    font-size: $main-size;
-    margin: 30px;
-    padding-top: 10px;
+
+
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: black;
 }
 
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: black;
+}
 
-.carousel-inner {
-    h5 {
-        span{
-            color: $my-color;
-        }
-    }
+.carousel-control-icon {
+  background: none !important;
+  outline: 0;
+  z-index: 0;
+}
+
+.carousel .carousel-control-icon {
+  opacity: 1;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.carousel:hover .carousel-control-icon {
+  opacity: 1;
 }
