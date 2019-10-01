@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,cAAc,CAAC,CAAC,CAAA;EACd,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,+BAA+B;EAC5C,SAAS,EAAE,IAAI;CAChB;;CAED,AAAA,AAAA,aAAC,CAAc,OAAO,AAArB,IAAuB,SAAS;CACjC,AAAA,aAAC,CAAc,MAAM,AAApB,IAAsB,UAAU,CAAC;EAChC,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "about.component.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "about.component.css"
+}

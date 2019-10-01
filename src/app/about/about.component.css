@@ -1,0 +1,11 @@
+.panel-heading a {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+/*# sourceMappingURL=about.component.css.map */

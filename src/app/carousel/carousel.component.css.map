@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,UAAU,CAAC;EACP,SAAS,EAJD,IAAI;EAKZ,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;CACpB;;AAGD,AAEQ,eAFO,CACX,EAAE,CACE,IAAI,CAAA;EACA,KAAK,EAZN,KAAK;CAaP",
+    "sources": [
+        "carousel.component.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "carousel.component.css"
+}
