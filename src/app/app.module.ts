@@ -14,6 +14,8 @@ import { ProductsComponent } from './products/products.component';
 import { PopularProductsComponent } from './popular-products/popular-products.component';
 import { RouterModule } from '@angular/router';
 import { ProductInfoComponent } from './product-info/product-info.component';
+import { AboutComponent } from './about/about.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ProductInfoComponent } from './product-info/product-info.component';
     NavigationComponent,
     ProductsComponent,
     PopularProductsComponent,
-    ProductInfoComponent
+    ProductInfoComponent,
+    AboutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserAnimationsModule,
