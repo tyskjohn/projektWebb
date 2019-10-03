@@ -19,6 +19,7 @@ import { RegisterComponent } from './register/register.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SuccessSiteComponent } from './success-site/success-site.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ProfileComponent } from './profile/profile.component';
     RegisterComponent,
     ShoppingCartComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    SuccessSiteComponent
   ],
   imports: [
     BrowserAnimationsModule,
