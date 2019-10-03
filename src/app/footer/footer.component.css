@@ -4,6 +4,10 @@
   /* Footer lists */
 }
 
+#footer-section .row {
+  margin: 0;
+}
+
 #footer-section .link {
   position: relative;
   text-decoration: none;

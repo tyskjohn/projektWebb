@@ -1,7 +1,8 @@
 #newsletter-section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #263238;
+  margin-top: 50px;
+  background: #404040;
   color: #f0f0f0;
 }
 
@@ -11,13 +12,16 @@
   font-weight: 400;
 }
 
+#newsletter-section form .form-control {
+  border-radius: 0;
+}
+
 #newsletter-section form .subscribe {
   padding: 0 10px;
   background: transparent;
   border: 1px solid #f0f0f0;
   color: #f0f0f0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0;
   -webkit-transition: ease-in-out .05s;
   transition: ease-in-out .05s;
 }

@@ -13,6 +13,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ProductsComponent } from './products/products.component';
 import { PopularProductsComponent } from './popular-products/popular-products.component';
 import { RouterModule } from '@angular/router';
+import { ProductInfoComponent } from './product-info/product-info.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterModule } from '@angular/router';
     CarouselComponent,
     NavigationComponent,
     ProductsComponent,
-    PopularProductsComponent
+    PopularProductsComponent,
+    ProductInfoComponent
   ],
   imports: [
     BrowserAnimationsModule,

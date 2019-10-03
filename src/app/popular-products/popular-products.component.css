@@ -135,7 +135,7 @@
 }
 
 .product-grid2 .add-to-cart:hover {
-  background-color: #3498db;
+  background-color: #7a7a7a;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .product-grid2 .product-new-label {
-  background-color: #3498db;
+  background-color: #7a7a7a;
   color: #fff;
   font-size: 17px;
   padding: 5px 10px;
@@ -174,7 +174,7 @@
 }
 
 .product-grid2 .title a:hover {
-  color: #3498db;
+  color: #7a7a7a;
 }
 
 .product-grid2 .price {

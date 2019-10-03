@@ -3,8 +3,8 @@
 #newsletter-section {
 
     box-sizing: border-box;
-
-    background: $dark-gray;
+    margin-top: 50px;
+    background: #404040;
     color: $white;
 
     .newsletter-title {
@@ -18,15 +18,15 @@
     }
 
     form {
-        
+        .form-control {
+            border-radius: 0;
+        }
         .subscribe {
             padding: 0 10px;
             background: transparent;
             border: 1px solid $white;
             color: $white;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-
+            border-radius: 0;
             transition: ease-in-out .05s;
         }
         .subscribe:hover {

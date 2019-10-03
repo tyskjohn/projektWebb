@@ -2,7 +2,9 @@
 
 #footer-section {
     background: $white;
-
+    .row {
+        margin: 0;
+    }
     /* Social media */
     .link {
         position: relative;
