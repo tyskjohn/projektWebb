@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { ModuleWithProviders } from '@angular/core';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginComponent } from './login/login.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home',  },
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'cart', component: ShoppingCartComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  { path: 'profile', component: ProfileComponent },
 
 ];
 
