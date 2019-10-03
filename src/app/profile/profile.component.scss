@@ -42,8 +42,8 @@
     .nav-link {
       letter-spacing: 2px;
       font-weight: 400;
-      background: transparent;
-      color: $dark-gray;
+      background: #404040;
+      color: white;
       border: 1px solid $dark-gray;
       border-radius: 0;
       transition: ease-in-out 0.1s;
@@ -60,8 +60,9 @@
         letter-spacing: 2px;
 
         button {
-          background: transparent;
+          background: #404040;
           border: 1px solid $dark-gray;
+          color: white;
           font-size: 1.1rem;
           font-weight: 400;
           letter-spacing: 4px;

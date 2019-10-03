@@ -1,7 +1,8 @@
+@import "../../colors";
+
 .container {
   height: 100%;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .card {
@@ -43,8 +44,7 @@
 
 input:focus {
   outline: 0 0 0 0 !important;
-  -webkit-box-shadow: 0 0 0 0 !important;
-          box-shadow: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
 }
 
 .remember {
@@ -68,21 +68,20 @@ input:focus {
 }
 
 .links a:hover {
-  color: #c5c5c5;
-  margin-left: 4px;
-}
+    color: #c5c5c5;
+    margin-left: 4px;
+  }
 
 .btn {
   border-radius: 0;
-  border: 1px solid #f0f0f0;
-  color: #f0f0f0;
+  border: 1px solid $white;
+  color: $white;
   background-color: #404040;
   font-weight: 600;
 }
 
 .btn:hover {
-  border: 1px solid #aaaaaa;
+  border: 1px solid $light-gray;
   background-color: #7a7a7a;
   text-decoration: none;
 }
-/*# sourceMappingURL=login.component.css.map */
