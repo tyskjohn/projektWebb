@@ -3,7 +3,7 @@
   //  background-color: $dark-gray;
   //        color: $white;
   //$light-gray: rgb(170, 170, 170);
-  #register {
+ /*  #register {
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -23,12 +23,17 @@
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
     transform: rotate(0);
+  } */
+
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   
   .input-group-addon {
     border-radius: 0;
-    background: rgb(170, 170, 170);
-    border: rgb(170, 170, 170);
+    background: #404040;
+    border: #404040;
   }
   
   #inner-wrapper,
@@ -42,6 +47,20 @@
   
   .input-group-addon {
     color: #fff;
-    background: rgb(170, 170, 170);
-    border: rgb(170, 170, 170);
+    background: #404040;
+    border: #404040;
+  }
+
+  .btn {
+    border-radius: 0;
+    border: 1px solid $white;
+    color: $white;
+    background-color: #404040;
+    font-weight: 600;
+  }
+  
+  .btn:hover {
+    border: 1px solid $light-gray;
+    background-color: #7a7a7a;
+    text-decoration: none;
   }

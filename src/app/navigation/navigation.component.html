@@ -6,8 +6,9 @@
 
 
 
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
     <a class="navbar-brand " routerLink="/home">
@@ -32,10 +33,10 @@
           <a class="hover-color nav-link" routerLink="/about" routerLinkActive="active"
             [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
         </li>
-       
+
       </ul>
       <ul class="navbar-nav my-2 my-lg-0">
-        
+
         <li class="nav-item mr-sm-2 nav-item">
           <a class="hover-color nav-link" routerLink="/login" routerLinkActive="active"
             [routerLinkActiveOptions]="{exact: true}">LOGIN</a>
@@ -45,8 +46,8 @@
             [routerLinkActiveOptions]="{exact: true}">REGISTER</a>
         </li>
         <li class="nav-item mr-sm-2 nav-item">
-            <a class="hover-color nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-          </li>
+          <a class="hover-color nav-link" routerLink="/cart"><i class="fas fa-shopping-cart"></i></a>
+        </li>
       </ul>
     </div>
   </nav>
