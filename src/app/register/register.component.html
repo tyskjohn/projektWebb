@@ -1,14 +1,15 @@
 <div class="container col-md-7 col-md-offset-4 pt-5 pb-3" id="register">
 	<section id="inner-wrapper" class="register mt-5 pt-5">
 		<article>
-			<form  [formGroup]="registerForm" (ngSubmit)="">
+		 <form  [formGroup]="registerForm" (ngSubmit)="register()"> 
+		
 			<div class="form-group row">
 				<div class="form-group col-md-6">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-user"> </i></span>
 						<input type="text" class="form-control" placeholder="firstname" id="firstname"
 							formControlName="firstname" type="text"
-							            [ngClass]="{ 'has-error' : isSubmitted && formControls.zipcode.errors }" class="validate">
+							            [ngClass]="{ 'has-error' : isSubmitted && formControls.firstname.errors }" class="validate">
 						<span class="helper-text">
 							<div *ngIf="isSubmitted && formControls.firstname.errors" class="text-danger">
 								<div *ngIf="formControls.firstname.errors.required">
@@ -126,5 +127,4 @@
 		</article>
 	</section>
 </div>
-<app-footer></app-footer>
-<script></script>
+

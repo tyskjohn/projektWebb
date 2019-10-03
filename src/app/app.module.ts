@@ -15,6 +15,9 @@ import { PopularProductsComponent } from './popular-products/popular-products.co
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { RegisterComponent } from './register/register.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { RegisterComponent } from './register/register.component';
     BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    HttpClientModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

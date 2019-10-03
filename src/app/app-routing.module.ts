@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { ProductsComponent } from './products/products.component';
 
 import { ModuleWithProviders } from '@angular/core';
+
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home',  },
   { path: 'home', component: HomeComponent },
