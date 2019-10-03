@@ -17,6 +17,7 @@ import { ProductInfoComponent } from './product-info/product-info.component';
 import { AboutComponent } from './about/about.component';
 import { RegisterComponent } from './register/register.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     ProductInfoComponent,
     AboutComponent,
     RegisterComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    LoginComponent
   ],
   imports: [
     BrowserAnimationsModule,
