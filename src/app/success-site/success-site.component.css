@@ -27,3 +27,16 @@
     width: 100px;
 }
 
+.btn-back {
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #404040;
+  font-weight: 600;
+}
+
+.btn-back:hover {
+  border: 1px solid rgb(170, 170, 170);
+  background-color: #7a7a7a;
+  text-decoration: none;
+}

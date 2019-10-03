@@ -1,5 +1,4 @@
 #profile-section {
-  background: #f0f0f0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-bottom: 30px;
@@ -37,7 +36,8 @@
   padding-top: 30px;
 }
 
-#profile-section .user-title h5, #profile-section .user-title p {
+#profile-section .user-title h5,
+#profile-section .user-title p {
   font-weight: 400;
   letter-spacing: 3px;
 }
@@ -49,8 +49,8 @@
   color: #263238;
   border: 1px solid #263238;
   border-radius: 0;
-  -webkit-transition: ease-in-out .1s;
-  transition: ease-in-out .1s;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
 }
 
 #profile-section .profile-tabs .nav-link:hover {
@@ -71,8 +71,8 @@
   font-weight: 400;
   letter-spacing: 4px;
   padding: 7px 20px;
-  -webkit-transition: ease-in-out .1s;
-  transition: ease-in-out .1s;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
 }
 
 #profile-section .profile-tabs .overview-section th button:hover {
@@ -93,8 +93,8 @@
   margin: 0;
   font-size: 20px;
   color: #263238;
-  -webkit-transition: ease-in-out .1s;
-  transition: ease-in-out .1s;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
   cursor: pointer;
 }
 
@@ -102,5 +102,27 @@
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #aaaaaa;
+}
+
+.more-info a,
+.more-info i {
+  color: #404040;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+tr.collapse.in {
+  display: table-row;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .info-btn {
+    display: none;
+  }
 }
 /*# sourceMappingURL=profile.component.css.map */
