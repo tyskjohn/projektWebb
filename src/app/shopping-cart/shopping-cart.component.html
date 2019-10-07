@@ -104,14 +104,16 @@
       <tfoot>
         <tr>
           <td>
-            <a href="#" class="btn btn-warning"
+            <a routerLink="/products" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}" class="btn btn-warning"
               ><i class="fa fa-angle-left"></i> Continue Shopping</a
             >
           </td>
           <td colspan="2" class="hidden-xs"></td>
           <td class="hidden-xs text-center"><strong>Total $300.99</strong></td>
           <td>
-            <a href="#" class="btn btn-success btn-block"
+            <a routerLink="/checkout" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}" class="btn btn-success btn-block"
               >Checkout</a>
           </td>
         </tr>

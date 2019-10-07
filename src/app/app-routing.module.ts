@@ -10,6 +10,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SuccessSiteComponent } from './success-site/success-site.component';
+import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home',  },
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'cart', component: ShoppingCartComponent},
   { path: 'login', component: LoginComponent},
   { path: 'profile', component: ProfileComponent },
-  { path: 'success-site', component: SuccessSiteComponent}
+  { path: 'success-site', component: SuccessSiteComponent},
+  { path: 'checkout', component: CheckoutLayoutComponent}
   
 ];
 

@@ -22,7 +22,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SuccessSiteComponent } from './success-site/success-site.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
+import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +43,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     LoginComponent,
     ProfileComponent,
     SuccessSiteComponent,
-    RegisterComponent
+    RegisterComponent,
+    CheckoutLayoutComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -54,6 +55,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
