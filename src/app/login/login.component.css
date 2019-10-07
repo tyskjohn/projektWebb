@@ -1,0 +1,92 @@
+.container {
+  height: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card {
+  height: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: #40404086 !important;
+  border-radius: 0;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #505050;
+}
+
+.social_icon span:hover {
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+input {
+  padding:5px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #404040;
+  color: white;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  color: #000000;
+  margin-left: 4px;
+}
+
+.links a:hover {
+  color: #c5c5c5;
+  margin-left: 4px;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  background-color: #404040;
+  font-weight: 600;
+}
+
+.btn:hover {
+  border: 1px solid #aaaaaa;
+  background-color: #7a7a7a;
+  text-decoration: none;
+}
+/*# sourceMappingURL=login.component.css.map */
