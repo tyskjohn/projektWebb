@@ -24,7 +24,9 @@
     -moz-transform: rotate(0);
     transform: rotate(0);
   } */
-
+.fpad {
+  padding-left: 50px;
+}
 .container {
   margin-top: 50px;
   margin-bottom: 100px;
@@ -38,6 +40,14 @@
   padding: 5px;
 }
 
+.validate {
+  padding-left: 10px;
+  
+}
+
+::placeholder {
+  color: #40404086;
+}
 #inner-wrapper,
 #contact-us .contact-form,
 #contact-us .our-address {

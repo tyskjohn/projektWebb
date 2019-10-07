@@ -20,6 +20,9 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SuccessSiteComponent } from './success-site/success-site.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -39,13 +42,18 @@ import { SuccessSiteComponent } from './success-site/success-site.component';
     ShoppingCartComponent,
     LoginComponent,
     ProfileComponent,
-    SuccessSiteComponent
+    SuccessSiteComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
