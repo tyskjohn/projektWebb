@@ -1,0 +1,62 @@
+/*  #register {
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+  }
+  
+  .register {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    -webkit-transform: rotateY(10deg);
+    -moz-transform: rotateY(10deg);
+    transform: rotateY(3deg);
+  
+  }
+  
+  .register:hover {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+  } */
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.input-group-addon {
+  border-radius: 0;
+  background: #404040;
+  border: #404040;
+}
+
+#inner-wrapper,
+#contact-us .contact-form,
+#contact-us .our-address {
+  color: #1d1d1d;
+  font-size: 19px;
+  padding: 50px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.input-group-addon {
+  color: #fff;
+  background: #404040;
+  border: #404040;
+}
+
+.btn {
+  border-radius: 0;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  background-color: #404040;
+  font-weight: 600;
+}
+
+.btn:hover {
+  border: 1px solid #aaaaaa;
+  background-color: #7a7a7a;
+  text-decoration: none;
+}
+/*# sourceMappingURL=register.component.css.map */
