@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductService } from '../product.service';
+import { Router, ActivatedRoute } from '@angular/router';
 
-import { Router } from '@angular/router';
+import { Product } from '../entities/product.entity';
+import { Item } from '../entities/item.entity';
+
 //import { CookieService } from 'ngx-cookie-service';
 //import { AuthService } from '../auth.service';
 declare var $: any;
@@ -12,22 +16,17 @@ declare var $: any;
 })
 export class NavigationComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  private items: Item[] = [];
+  private total: number = 0;
+  private itemQuantity: number = 0;
+
+  constructor(private router: Router, private productService: ProductService, private activatedRoute: ActivatedRoute) { }
 
   //isLoggedIn: boolean = this.cookieService.check('isLoggedIn')
 
   public user = {}
 
-
-
   ngOnInit() {
- //   if(this.isLoggedIn) {
-   //   this.authService.getUser().subscribe(data => this.user = data)
-   // }
-    // $(document).ready(function () {
-    //   $('.sidenav').sidenav();
-    // });
+
   }
-
-
-}
+ }
