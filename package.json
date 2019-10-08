@@ -20,10 +20,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
-<<<<<<< HEAD
     "ngx-cookie-service": "^2.2.0",
-=======
->>>>>>> 0ffcbdd2eb4e0b91b6ce420da9ea0c774ec3e411
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
