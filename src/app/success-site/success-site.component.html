@@ -10,11 +10,19 @@
         <div class="col"><strong>Product name</strong></div>
         <div class="col"><strong>Product price</strong></div>
       </div>
-      <div class="row columns-info">
-        <div class="col"><img src="../../assets/iphone-11-pro-max-midnight-green-select-2019.png" alt=""></div>
-        <div class="col">iPhone 11 Pro Max Midnight Green</div>
-        <div class="col">$1099</div>
+
+      <div *ngFor="let item of items" class="mt-2 pb-2 border-bottom row columns-info">
+        <div class="col"><img src="{{ item.product.img }}" alt=""></div>
+        <div class="col">{{ item.product.name }}</div>
+        <div class="col">${{ item.product.price }}</div>
       </div>
+
+      <div class="row text-center mt-3 pt-3">
+          <div class="col"><strong>Total:</strong></div>
+          <div class="col"><strong></strong></div>
+          <div class="col"><strong>${{ total }}</strong></div>
+        </div>
+
       <button class="btn btn-back mt-5">&laquo; Go Back</button>
     </div>
   </div>

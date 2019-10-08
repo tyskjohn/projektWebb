@@ -26,6 +26,20 @@
   text-transform: uppercase;
 }
 
+.rel-li {
+  position: relative;
+}
+
+.itemQuantity {
+  background: white;
+  color: black;
+  border-radius: 7px;
+  padding: 0 4px;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}
+
 .workside a {
   color: #d1d1d1;
 }
