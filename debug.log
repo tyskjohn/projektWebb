@@ -404,6 +404,7 @@
 [1008/123731.957:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/123731.957:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/123731.957:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [1008/125231.959:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/125231.959:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/125231.959:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -514,3 +515,16 @@
 [1008/191425.112:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/191425.112:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1008/191425.112:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+>>>>>>> daec7c66c7b1d0249dd9ba5c9d4aaf7ac1fe0022
+[1008/194808.630:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.630:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.630:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.630:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.630:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1008/194808.631:ERROR:crash_report_database_win.cc(469)] failed to stat report

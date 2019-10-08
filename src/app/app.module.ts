@@ -23,6 +23,8 @@ import { SuccessSiteComponent } from './success-site/success-site.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.component';
+import { CookieService} from 'ngx-cookie-service';
+import { LogoutComponent } from './logout/logout.component'
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.compo
     ProfileComponent,
     SuccessSiteComponent,
     RegisterComponent,
-    CheckoutLayoutComponent
+    CheckoutLayoutComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -57,7 +60,7 @@ import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.compo
     ReactiveFormsModule,
     RouterModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

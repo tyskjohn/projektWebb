@@ -18,8 +18,16 @@
   z-index: 500;
 }
 
-.workside a {
+.workside span {
   color: #f0f0f0;
+}
+
+.user {
+  text-transform: uppercase;
+}
+
+.workside a {
+  color: #d1d1d1;
 }
 
 .logo-image {
@@ -36,9 +44,9 @@ li {
   margin-left: 20px;
 }
 
-a.hover-color:hover,
-a.hover-color:active {
-  color: #7a7b7c;
+.workside a.hover-color:hover,
+.workside a.hover-color:active {
+  color: #ffffff;
   -webkit-transition: 0.15s;
   transition: 0.15s;
 }
