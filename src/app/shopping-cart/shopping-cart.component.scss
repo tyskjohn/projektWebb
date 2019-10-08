@@ -21,3 +21,9 @@ img {
   background-color: #7a7a7a;
   text-decoration: none;
 }
+
+@media (max-width: 575.98px) {
+  a i {
+   display: none;
+  }
+}
