@@ -23,7 +23,8 @@
           <div class="col"><strong>${{ total }}</strong></div>
         </div>
 
-      <button class="btn btn-back mt-5">&laquo; Go Back</button>
+      <button class="btn btn-back mt-5" routerLink="/products" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact: true}">&laquo; Go Back</button>
     </div>
   </div>
 

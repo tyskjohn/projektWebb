@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     
 }
 .order-info2 {
@@ -22,7 +21,9 @@
     text-align: center;
     
 }
-
+.container {
+    margin-top: 100px;
+}
 .columns-info img {
     width: 100px;
 }
@@ -33,6 +34,7 @@
   color: #fff;
   background-color: #404040;
   font-weight: 600;
+  margin-bottom: 100px;
 }
 
 .btn-back:hover {

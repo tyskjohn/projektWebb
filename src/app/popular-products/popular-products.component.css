@@ -229,7 +229,7 @@
     transform: translateY(0);
   }
   .product-grid2 .add-to-cart:hover {
-    background-color: #3498db;
+    background-color: #7a7a7a;
     text-decoration: none;
   }
 }
