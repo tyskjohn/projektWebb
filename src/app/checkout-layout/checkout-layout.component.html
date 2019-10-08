@@ -275,17 +275,23 @@
             <div class="card-body">
                 <div class="order-info2">
                     <div class="row text-center product-info">
-                      <div class="col"><strong>Product</strong></div>
-                      <div class="col"><strong>Product name</strong></div>
-                      <div class="col"><strong>Product price</strong></div>
+                      <div class="col-4"><strong>Product</strong></div>
+                      <div class="col-4"><strong>Quantity</strong></div>
+                      <div class="col-4"><strong>Price</strong></div>
                     </div>
-                    <div class="row columns-info">
-                      <div class="col"><img src="../../assets/iphone-11-pro-max-midnight-green-select-2019.png" alt=""></div>
-                      <div class="col">iPhone 11 Pro Max Midnight Green</div>
-                      <div class="col">$1099</div>
+                    <div *ngFor="let item of items" class="row columns-info border-bottom">
+                      <div class="col">{{ item.product.name }}</div>
+                      <div class="col">{{ item.quantity }}</div>
+                      <div class="col">${{ item.product.price }}</div>
+                      
                     </div>
-                    <button style="width: 100px; float: right;" class="buy-btn btn btn-primary mt-3" routerLink="/success-site"
-                      routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Purchase</button>
+                    <div class="row">
+                      <strong class="col-6 mr-auto d-inline mt-4">Total: $ {{total}}</strong>
+                    
+                        <button class="col-6 d-inline buy-btn btn btn-primary mt-3" routerLink="/success-site"
+                        routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Purchase</button>
+                    </div>
+                    
                   </div>
             </div>
           </div>
