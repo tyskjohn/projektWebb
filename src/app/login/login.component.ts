@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-//import { CookieService } from 'ngx-cookie-service';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-login',
@@ -10,6 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  cookieService: any;
 
   constructor(private authService: AuthService, private router: Router, private formBuilder: FormBuilder) { }
 
@@ -41,7 +42,7 @@ export class LoginComponent implements OnInit {
 
       if(res["success"]) {
         this.router.navigateByUrl('/profile');
-        //this.cookieService.set('isLoggedIn', 'true', 7);
+        this.cookieService.set('isLoggedIn', 'true', 7);
       } else {
         return;
       }
