@@ -16,7 +16,7 @@
     width: 100%;
     height: auto;
     transform: scale(1);
-    transition: all 1s ease-in-out 0s;
+    transition: all .5s ease-in-out 0s;
 }
 .post-slide2:hover .post-img img{
     transform: scale(1.08);
