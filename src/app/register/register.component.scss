@@ -32,12 +32,17 @@
   margin-bottom: 100px;
 }
 
+input {
+  font-size: 16px;
+}
+
 .input-group-addon {
   width: 40px;
   background-color: #404040;
   color: white;
   border: 0 !important;  
   padding: 5px;
+  
 }
 
 .validate {
