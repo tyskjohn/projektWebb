@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SuccessSiteComponent } from './success-site/success-site.component';
 import { CheckoutLayoutComponent } from './checkout-layout/checkout-layout.component';
+import { LogoutComponent } from './logout/logout.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home',  },
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'profile', component: ProfileComponent },
   { path: 'success-site', component: SuccessSiteComponent},
-  { path: 'checkout', component: CheckoutLayoutComponent}
+  { path: 'checkout', component: CheckoutLayoutComponent},
+  { path: 'logout', component: LogoutComponent}
   
 ];
 

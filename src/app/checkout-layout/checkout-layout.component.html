@@ -1,3 +1,4 @@
+<app-navigation></app-navigation>
 <div class="container">
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-7">
@@ -16,7 +17,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="Firstname..." id="firstname"
+                    <input type="text" class="form-control inputpadding" value="{{ user.firstname }}" placeholder="Firstname..." id="firstname"
                       type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.firstname.errors }" class="validate">
                         <span class="helper-text">
@@ -31,7 +32,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="Lastname..." id="lastname"
+                    <input type="text" value="{{ user.lastname }}" class="form-control inputpadding" placeholder="Lastname..." id="lastname"
                       type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.lastname.errors }" class="validate">
                         <span class="helper-text">
@@ -48,7 +49,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="Addressline..." id="addressline"
+                    <input type="text" value="{{ user.addressline }}" class="form-control inputpadding" placeholder="Addressline..." id="addressline"
                       type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.addressline.errors }" class="validate">
                         <span class="helper-text">
@@ -63,7 +64,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="Zipcode..." id="zipcode"
+                    <input type="text" value="{{ user.zipcode }}" class="form-control inputpadding" placeholder="Zipcode..." id="zipcode"
                       type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.zipcode.errors }" class="validate">
                         <span class="helper-text">
@@ -80,7 +81,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="City..." id="city" type="text">
+                    <input type="text" value="{{ user.city }}" class="form-control inputpadding" placeholder="City..." id="city" type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.city.errors }" class="validate">
                         <span class="helper-text">
                           <div *ngIf="isSubmitted && formControls.city.errors" class="text-danger">
@@ -94,7 +95,7 @@
                 <div class="form-group col-md-6">
                   <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-map-marker-alt"> </i></span>
-                    <input type="text" class="form-control inputpadding" placeholder="Country..." id="country"
+                    <input type="text" value="{{ user.country }}" class="form-control inputpadding" placeholder="Country..." id="country"
                       type="text">
                     <!-- [ngClass]="{ 'has-error' : isSubmitted && formControls.country.errors }" class="validate">
                         <span class="helper-text">

@@ -10,9 +10,8 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  cookieService: any;
-
-  constructor(private authService: AuthService, private router: Router, private formBuilder: FormBuilder) { }
+  
+  constructor(private authService: AuthService, private router: Router, private formBuilder: FormBuilder, private cookieService: CookieService) { }
 
   loginForm: FormGroup;
   isSubmitted: boolean = false;

@@ -11,13 +11,29 @@ export class AuthService {
 
    constructor(private http: HttpClient) { }
 
-   public login(userInfo: User) {
-    return this.http.post(`${this.__apiUrl}/users/login`, userInfo);
+  public register(userInfo: User) {
+    return this.http.post(`${this.__apiUrl}/angularUsers/register`, userInfo);
   }
 
-  public register(userInfo: User) {
-    return this.http.post(`${this.__apiUrl}/users/register`, userInfo);
+  public login(userInfo: User) {
+    return this.http.post(`${this.__apiUrl}/angularUsers/login`, userInfo);
   }
+
+  public logout() {
+    localStorage.removeItem('ACCESS_TOKEN');
+    localStorage.removeItem('USER_ID');
+  }
+
+  public getUser(): Observable<User[]> {
+    let getToken = localStorage.getItem('ACCESS_TOKEN');
+    let userId = localStorage.getItem('USER_ID');
+    return this.http.get<User[]>(`${this.__apiUrl}/angularUsers/${userId}`, { headers: { 'Authorization': `Bearer ${getToken}` } } );
+  }
+
+  public getIssues() {
+    return this.http.get(`${this.__apiUrl}/issues/all`);
+  }
+
 }
 export interface User {
   _id: string;
