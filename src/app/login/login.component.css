@@ -9,7 +9,7 @@
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
-  background-color: #40404086 !important;
+  background-color: #4040400e !important;
   border-radius: 0;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .card-header h3 {
-  color: white;
+  color: black;
 }
 
 .social_icon {
@@ -35,10 +35,11 @@
 }
 
 .input-group-prepend span {
-  width: 50px;
+  width: 40px;
   background-color: #404040;
   color: white;
   border: 0 !important;
+  border-radius: 0;
 }
 
 input:focus {
@@ -48,7 +49,7 @@ input:focus {
 }
 
 .remember {
-  color: white;
+  color: black;
 }
 
 .remember input {
@@ -59,7 +60,7 @@ input:focus {
 }
 
 .links {
-  color: white;
+  color: black;
 }
 
 .links a {
@@ -84,5 +85,29 @@ input:focus {
   border: 1px solid #aaaaaa;
   background-color: #7a7a7a;
   text-decoration: none;
+}
+
+input {
+  border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  color: #40404086;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #40404086;
+  font-size: 16px;
 }
 /*# sourceMappingURL=login.component.css.map */
